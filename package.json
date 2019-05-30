@@ -1,0 +1,22 @@
+{
+  "name": "julian-todo-cli",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch 'src/index.js'",
+    "setup": "npm i -g"
+  },
+  "bin": {
+    "todo": "./src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "cli-table": "^0.3.1",
+    "commander": "^2.20.0",
+    "figlet": "^1.2.1",
+    "knex": "^0.17.0",
+    "sqlite3": "^4.0.8"
+  }
+}
